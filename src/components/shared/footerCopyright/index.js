@@ -2,19 +2,23 @@ import React from "react";
 
 export default function FooterCopyright() {
   return (
-    <div className="flex items-center justify-center text-center">
-      <div
-        className="
+    <div
+      className="
                   font-general-regular
-                  text-sm 
-                  text-primary-dark
-                  dark:text-primary-light
+                  flex-col
+                  items-center
+                  justify-center
+                  text-center
+                  text-sm
+                  text-primary-dark 
+                  dark:text-primary-light 
                   sm:text-lg
                   "
-      >
+    >
+      <div>
         <span>View source code </span>
         <a
-          href="https://github.com/sunnysherrysunny/sunny-portfolio"
+          href="https://github.com/sunnysherrysunny/react-portfolio"
           target="_blank"
           rel="noreferrer"
           className="
@@ -30,10 +34,22 @@ export default function FooterCopyright() {
         >
           Here
         </a>
-        <span>. Developed by </span>
-        <span className="font-general-medium uppercase text-gray-800 dark:text-gray-200">
-          Sunny Guan
-        </span>
+        <span>. </span>
+      </div>
+      <div>
+        <span>Developed by </span>
+        <a
+          className="
+                    font-general-medium uppercase 
+                    text-gray-800 underline 
+                    dark:text-gray-200
+                    "
+          href="https://github.com/sunnysherrysunny"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Feiyang (Sunny) Guan
+        </a>
         .
       </div>
     </div>

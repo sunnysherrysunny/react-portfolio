@@ -22,7 +22,7 @@ export default function HeaderLinks(props) {
                   `}
       >
         <Link
-          to="/projects"
+          to="/"
           className="
                     font-general-medium
                     mb-2
@@ -35,6 +35,31 @@ export default function HeaderLinks(props) {
                     dark:hover:text-cyan-100
                     sm:mx-4
                     sm:py-2
+                    "
+          aria-label="Home"
+          onClick={toggleMenu}
+        >
+          Home
+        </Link>
+        <Link
+          to="/projects"
+          className="
+                    font-general-medium
+                    mb-2
+                    block border-t-2
+                    border-secondary-light
+                    pt-3
+                    text-left
+                    text-lg
+                    font-medium
+                    text-primary-dark
+                    hover:text-teal-600
+                    dark:border-secondary-dark
+                    dark:text-primary-light
+                    dark:hover:text-cyan-100
+                    sm:mx-4 sm:border-t-0
+                    sm:py-2
+                    sm:pt-2
                     "
           aria-label="Projects"
           onClick={toggleMenu}

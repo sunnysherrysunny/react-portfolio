@@ -6,7 +6,7 @@ export default function ProjectCell(props) {
   const {project, projectIndex} = props
   return (
     <Link
-    to={`/projects/single-project/${projectIndex}`}
+    to={`/projects/${projectIndex}`}
     className="
       rounded-xl
       shadow-lg

@@ -1,4 +1,5 @@
 // Project summaried data.
+import UnderConstrcution from "../assets/images/slog-underconstruction.svg"
 
 const projectSummaries = [
   {
@@ -29,9 +30,9 @@ const projectSummaries = [
     id: "GJAFnvnaGPArdwQNdc95I",
     title: "S-Log",
     category: "Full-stack",
-    date: "EST Nov-Dec, 2022",
+    date: "Work In Progress",
     displayImg: require("../assets/images/slog-preview-display.png"),
-    galleryImg: [require("../assets/images/slog-underconstruction.svg")],
+    galleryImg: [UnderConstrcution],
   },
   {
     id: "5cfJk4lTAFIDObKnSblVC",

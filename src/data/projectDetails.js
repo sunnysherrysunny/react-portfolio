@@ -2,7 +2,7 @@
 
 const projectDetails = [
   {
-    id: 0,
+    id: "BwvyCzNoQpRiy-a2MCyGL",
     language: ["Java", "SQL"],
     tech: ["Spring Boot", "MySQL", "MyBatis Plus", "Redis", "Nginx"],
     description: `Protigue Eats is an online food ordering web app featuring 
@@ -14,25 +14,24 @@ const projectDetails = [
       I also optimized ordering experience with Redis caching popular meals.`,
   },
   {
-    id: 1,
-    language: ["Vue", "Javascript", "HTML", "CSS"],
-    tech: ["Vue.js", "Tailwind CSS"],
-    src: "https://github.com/sunnysherrysunny/sunny-portfolio",
+    id: "RRYqReDPFjaKoJbmyTXQE",
+    language: ["React", "Javascript", "HTML", "CSS"],
+    tech: ["React.js", "Tailwind CSS"],
+    src: "https://github.com/sunnysherrysunny/react-portfolio",
     demo: "https://sunnyguan.netlify.app/",
     description: `This portfolio is a Single Page Application and features responsive design.
-    I developed it on Vue.js and utilized Vue-Router to handle transitions between different views.
+    I developed it on React.js and utilized React-Router to handle transitions between different views.
     I also used Tailwind CSS to beautify the webpage and switch between dark and light modes.`,
   },
   {
-    id: 2,
+    id: "9KXXHkHmXkYhmvbf-IsH1",
     language: ["Java", "SQL", "Vue", "Javascript", "Shell"],
     tech: ["Spring Boot", "Spring Security", "MySQL", "MyBatis Plus", "Vue.js"],
     description: `S-Log is my personal blog. It is still under construction. 
-    I am building this blog's frontend on Vue.js and backend on Spring Boot. 
-    Estimated deployment time is Nov 2022-Dec 2022.`,
+    I am building this blog's frontend on Vue.js and backend on Spring Boot.`,
   },
   {
-    id: 3,
+    id: "qYizQ4ibA1FcBj4KpnKEa",
     language: ["Python"],
     tech: ["OpenCV", "NumPy"],
     src: "https://github.com/sunnysherrysunny/Dirt-Drift",
@@ -43,7 +42,7 @@ const projectDetails = [
       module to accelerate collision calculation.`,
   },
   {
-    id: 4,
+    id: "8nRxyG6vSV5YqV7oPwbaY",
     language: ["C", "Shell"],
     tech: ["POSIX Threads", "TCP/IP"],
     description: `I wrote this Linux proxy server in C and based on TCP/IP. 

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Banner />
-      <ProjectGrid /> To be implemented
+      <ProjectGrid />
     </div>
   );
 }

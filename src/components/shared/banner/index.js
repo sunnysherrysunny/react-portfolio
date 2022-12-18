@@ -66,8 +66,7 @@ export default function Banner() {
                         duration-500
                         hover:bg-teal-700
                         hover:text-gray-200
-                        focus:ring-1
-                        focus:ring-rose-600 dark:border-ternary-dark
+                         dark:border-ternary-dark
                         dark:bg-cyan-100
                         dark:text-gray-500
                         dark:hover:bg-cyan-300

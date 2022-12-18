@@ -1,5 +1,10 @@
 import React from "react";
+import ProjectGrid from "../components/projects/projectGrid";
 
 export default function Projects() {
-  return <div>Projects To be implemented</div>;
+  return (
+    <div>
+      <ProjectGrid />
+    </div>
+  );
 }

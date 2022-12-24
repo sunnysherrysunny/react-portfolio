@@ -4,6 +4,10 @@
     <a href="https://github.com/sunnysherrysunny/sunny-portfolio" target="_blank">Vue version Repo</a>
 </h2>
 <div align="center">
+    <img alt="screenshot" src="./images/screenshot.png" /> 
+</div>
+<br/>
+<div align="center">
     <img alt="React.js" src="./images/powered-by-react.js.svg" /> &nbsp;
     <img alt="TailwindCSS" src="./images/styled-with-tailwind.svg" /> &nbsp;
     <img alt="OpenSource" src="./images/open-source.svg" />

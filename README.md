@@ -1,7 +1,7 @@
 <h2 align="center">
     Portfolio Website with React.js & Darkmode<br/>
     <a href="https://sunnyguan.netlify.app" target="_blank">Demo</a> <br/>
-    <a href="https://github.com/sunnysherrysunny/sunny-portfolio" target="_blank">Vue version Repo</a>
+    <a href="https://github.com/sunnysherrysunny/vue-portfolio" target="_blank">Vue version Repo</a>
 </h2>
 <div align="center">
     <img alt="screenshot" src="./images/screenshot.png" /> 
